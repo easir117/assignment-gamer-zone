@@ -256,3 +256,36 @@ gametype container section
     display: flex;
     padding: 1.5rem;
 }
+
+/*footer section*/
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid tomato;
+}
+.anchor-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid tomato;
+}
+.anchor-container > a {
+    text-decoration: none;
+}
+.icon-container {
+    border: 2px solid tomato;
+    display: flex;
+    justify-content: center;
+}
+.terms-container {
+    display: flex;
+    justify-content: center;
+}
+.terms-container > a {
+    text-decoration: none;
+    justify-content: center;
+}
+
+.footer-paragraph {
+    text-align: center;
+}

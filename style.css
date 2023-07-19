@@ -24,7 +24,7 @@ height: 100%;
 .logo-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    
 
 }
 .logo-container > h3 {

@@ -93,11 +93,10 @@ justify-content: space-around;
     margin: 0 10rem;
 }
 .play-section-article {
-    width: 30rem;
-    height: 30rem;
+    width: 50%;
     align-self: center ;
     text-align: center;
-    
+    padding: 10rem; 
     background-image: url(images/group.png);
     background-repeat: no-repeat;
 }
@@ -277,25 +276,46 @@ max-width: 300px;
 /*
 gametype container section
 */
+
+.game-box-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
 .gametype-container {
-    margin-top: 8rem;
-    margin-left: 3rem ;
-    margin-right: 3rem ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    max-width: 1440px;
+    margin: 8rem auto; 
+
+
 }
 
 .image-box {
     display: flex;
-    padding: 1.5rem;
+    padding: 10px;
+    border-radius: 50px;
+    background: #FFF;
+    align-items: center;
+    gap: 5px; 
+}
+
+.image-box:hover{
+    color: #FF42A5; 
+    border: 1px solid #ff42a5;
+    padding: 9px;
 }
 
 /*footer section*/
-
+footer{
+    background: #0B0223;
+     
+}
 
 .footer-container {
-    background: #0B0223;
+   padding: 120px 28.8vw;
+   display: flex;
+   flex-direction: column;
+    gap: 40px; 
     
 }
 
@@ -327,6 +347,7 @@ margin-left: 2rem;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .icon-container > i {

@@ -87,6 +87,12 @@
          .terms-container{
             justify-content: space-between;
          }
+         .box-container{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin: 50px auto 120px ; 
+        }
     }
 
 

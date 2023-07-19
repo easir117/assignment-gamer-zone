@@ -207,11 +207,51 @@ text-align: center;
 }
 
 .box {
-padding: 1rem 1rem ;
+
 align-items: center;
-text-align: center;
+
 }
 
+/* hover effect */
+.box-container{
+    max-width: 1440px;
+    margin: 50px auto 120px ; 
+}
+.container{
+    width: 340px;
+    height: 400px;;
+    position: relative;
+    text-align: center;
+    
+}
+
+.container img{
+    height: 100%;
+    width: 100%; 
+}
+.overlay{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out ;
+    background: black;
+    cursor: pointer;
+    border-radius: 16px;
+    border: 2px solid #F948B2; 
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover .overlay{
+    opacity: 0.8;
+}
 /*play instantly section*/
 .play-instant-section {
     margin: 0 10rem;
